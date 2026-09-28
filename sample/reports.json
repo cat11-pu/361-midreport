@@ -1,0 +1,18 @@
+{
+  "budget": 2,
+  "bad_metric_code": "E_BAD_METRIC",
+  "bad_source_code": "E_BAD_SOURCE",
+  "bad_value_code": "E_BAD_VALUE",
+  "dup_code": "E_DUP_REPORT",
+  "enough_code": "E_NOT_ENOUGH",
+  "done_code": "E_DONE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "readings": [], "settled": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "report", "metric": 1, "source": "a", "value": 5 },
+    { "id": 2, "kind": "report", "metric": 1, "source": "b", "value": 9 },
+    { "id": 3, "kind": "report", "metric": 1, "source": "c", "value": 7 },
+    { "id": 4, "kind": "settle", "metric": 1 },
+    { "id": 5, "kind": "report", "metric": 2, "source": "a", "value": 4 }
+  ]
+}
